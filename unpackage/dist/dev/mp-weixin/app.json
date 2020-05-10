@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/me/me",
+    "pages/add/add"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#b7282e",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index_cur.png",
+        "text": "Soft"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "static/add.png",
+        "selectedIconPath": "static/add_cur.png",
+        "text": "Add"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "static/me.png",
+        "selectedIconPath": "static/me_cur.png",
+        "text": "Me"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

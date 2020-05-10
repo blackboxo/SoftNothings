@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "Soft Nothings",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

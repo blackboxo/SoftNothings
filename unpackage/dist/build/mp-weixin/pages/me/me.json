@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "My Softs",
+  "usingComponents": {
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

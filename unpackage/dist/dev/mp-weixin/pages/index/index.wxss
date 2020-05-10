@@ -1,0 +1,31 @@
+
+.page {
+	height: 100vh;
+}
+navigator {
+	width: 100%;
+}
+.radius {
+	border-radius: 10px;
+}
+uni-navigator {
+	min-width: 100%;
+}
+.cu-list {
+	margin-top: 10rpx;
+}
+.nav-list {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	padding: 0px 30rpx 0px;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.back {
+	background-color: #fef4f4;
+}
+
